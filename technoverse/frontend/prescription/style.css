@@ -1,0 +1,173 @@
+body {
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(22, 181, 22)) ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+
+.main {
+  width: 420px;
+}
+
+.navbar-brand {
+  width: 45px;
+  height: 45px;
+  border-radius: 30px;
+  display: flex;
+  text-align: center;
+  font-size: 10px;
+  background-color: #26b114a6;
+  border: none;
+  cursor: pointer;
+  transition: all, 0.5s;
+  z-index: 1000;
+  padding: 12px;
+}
+
+.navbar-brand img {
+  width: 20px;
+  height: 20px;
+  transition: all, 0.5s;
+}
+
+.navbar-brand:hover {
+  background-color: #3db10f70;
+  scale: 1.1;
+}
+
+.navbar-brand:active {
+  background-color: #035f0628;
+}
+
+.navbar {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 30px;
+
+}
+
+.navitemwrapper {
+  background-color: #000;
+  width: 60%;
+  height: 49px;
+  border-radius: 0px 26px 0px 26px;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  width: 98%;
+  border-radius: 3px 26px 3px 26px;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #000;
+
+}
+
+.text-white:hover {
+  text-decoration: none;
+}
+
+.container56 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  background-color: #55ce5911;
+  box-shadow: 0px 4px 4px #000000;
+  border-radius: 16px;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.elebtn:last-child {
+  margin-top: 30px;
+}
+
+.elebtn {
+  width: 80%;
+  height: 250px;
+  position: relative;
+  cursor: pointer;
+  font-size: 50px;
+  font-family: Kodchasan;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px #000;
+  box-sizing: border-box;
+  border-color: #67c259;
+  padding: 10px 10px;
+  border: 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container56 .elebtn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  scale: 1.05;
+}
+
+.wrap {
+  width: 10px;
+  background-color: #fff;
+  padding: 20px;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imgd {
+  width: 30px;
+}
+
+.wrap {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width:800px) {
+  .main {
+    width: 100%;
+  }
+  .navitemwrapper{
+    border-radius: 0px 0px 0px 30px;
+    right: 0px;
+  }
+}

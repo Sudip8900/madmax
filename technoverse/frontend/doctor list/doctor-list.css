@@ -1,0 +1,79 @@
+body{
+    background-image: linear-gradient(black, green);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.main{
+    width: 420px;
+    margin: 20px;
+}
+
+.back{
+    width: 45px;
+    height:45px;
+    border-radius: 30px;
+    display: flex;
+    text-align: center;
+    font-size: 10px;
+    background-color: #26b114a6;
+    cursor: pointer;
+    transition: all, 0.5s;
+    z-index: 1000;
+    padding: 12px;
+}
+
+.back img{
+    width: 20px;
+    height: 20px;
+    transition: all, 0.5s;
+}
+
+.back:hover{
+    background-color: #43a11d70;
+    scale: 1.1;
+}
+
+.back:active{
+    background-color: rgb(2, 71, 23);
+}
+
+.navitem{
+    width: 70%;
+    border-radius: 3px 26px 3px 26px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #000;
+}
+
+.nav-item{
+    color: white;
+    font-family: Inter;
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    background-color: rgba(142, 252, 142, 0.28);
+    border-radius: 25px;
+    padding: 20px;
+}
+h1{
+    color: white;
+    font-family: Inter;
+    padding: 20px;
+    padding-left: 0px;
+}

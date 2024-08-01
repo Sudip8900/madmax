@@ -1,0 +1,178 @@
+body {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(22, 181, 22));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+main {
+    width: 420px;
+}
+
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-radius: 5px 26px 2px 26px;
+    background-color: hsla(120, 65%, 57%, 0.123);
+    box-shadow: 0px 4px 10px #000000;
+    backdrop-filter: blur(16px);
+    --webkit-backdrop-filter: blur(16px);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lidtsp {
+    margin-left: 15px;
+}
+
+.navbar-lnav {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    padding-left: 0px;
+}
+
+
+nav .nav-linkk {
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+nav .nav-itemm:hover {
+    transform: scale(1.1);
+}
+
+.nav-linkk:hover {
+    color: rgb(32, 124, 57);
+}
+
+nav .nav-linkk:active {
+    background-color: rgb(9, 113, 18);
+    padding: 20px;
+    border-radius: 5px 26px 5px 26px;
+    border-style: outset;
+    border: 2px;
+    border-color: white;
+    color: white;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    background-color: #55ce5911;
+    box-shadow: 0px 0px 10px #000000fe;
+    border-radius: 16px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wnote {
+    width: 100%;
+    list-style: none;
+    background-color: white;
+    border-radius: 25px;
+    height: 250px;
+    transition: all 0.5s;
+}
+
+.wnote .welcmsg {
+    color: green;
+    margin: 0px;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 60px;
+    font-family: Ephesis;
+}
+
+.wnote .midword {
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    margin-left: 50%;
+    margin-top: 5%;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 1px;
+}
+
+.wnote .pharmaname {
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    margin-left: 50%;
+    margin-top: 7%;
+    font-family: Julius Sans One;
+    margin-bottom: 10px;
+    font-weight: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.elebtn {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    height: 180px;
+    font-size: 50px;
+    font-family: Kodchasan;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px #000;
+    box-sizing: border-box;
+    border: 0;
+    padding: 10px 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.elebtn:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+
+}
+
+@media screen and (max-width:646px) {
+    main {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container1 {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 35px;
+    }
+}
